@@ -1,1 +1,66 @@
+body {
+    margin: 0 10%;
+}
 
+h2 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.Playwrite h3 {
+    font-family: "Playwrite GB S";
+    white-space: nowrap;
+}
+
+.Playwrite p {
+    font-family: "Playwrite GB S";
+    font-size: small;
+}
+
+.Space-Mono h3 {
+    font-family: "Space Mono";
+    white-space: nowrap;
+}
+
+.Space-Mono p {
+    font-family: "Space Mono";
+    font-size: small;
+}
+
+.section {
+    border: solid 1px black;
+    padding: 5%;
+    margin: 10px 0px 10px 0px;
+    max-width: 100%;
+}
+
+.section-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.section-item {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    min-width: auto;
+    box-sizing: border-box;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Pink {
+    background-color: pink;
+}
+
+.Green {
+    background-color: green;
+}
+
+.Red {
+    background-color: red;
+}
